@@ -14,6 +14,7 @@
 # define MINISHELL_H
 
 /* ====== LIBRARIES ====== */
+# include <stdio.h>
 # include <readline/readline.h>
 # include <readline/history.h>
 # include <dirent.h>
@@ -21,7 +22,6 @@
 # include <sys/wait.h>
 # include <sys/resource.h>
 # include <sys/stat.h>
-# include <stdio.h>
 # include <string.h>
 # include <stdlib.h>
 # include <signal.h>
